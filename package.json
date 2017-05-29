@@ -4,13 +4,20 @@
   "readme": "Okul Öncesi Eğitim Kurumları için Mobil ve Tablet Uygulaması ",
   "repository": "https://github.com/adazure/app.okuloncesi.git",
   "nativescript": {
-    "id": "org.adazure.appokuloncesi"
+    "id": "org.adazure.appokuloncesi",
+    "tns-android": {
+      "version": "3.0.0"
+    }
   },
   "dependencies": {
     "nativescript-theme-core": "~1.0.2",
     "tns-core-modules": "3.0.0"
   },
   "devDependencies": {
+    "babel-traverse": "6.4.5",
+    "babel-types": "6.4.5",
+    "babylon": "6.4.5",
+    "lazy": "1.0.11",
     "nativescript-dev-android-snapshot": "^0.*.*"
   }
 }
