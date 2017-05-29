@@ -1,0 +1,10 @@
+<Page 
+    xmlns="http://schemas.nativescript.org/tns.xsd"
+    loaded="loaded"
+    xmlns:timeline="components/timeline">
+    <ListView items="{{tablo}}">
+        <ListView.itemTemplate>
+            <timeline:item data="{{data}}" />
+        </ListView.itemTemplate>
+    </ListView>
+</Page>

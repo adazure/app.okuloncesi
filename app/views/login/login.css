@@ -1,0 +1,39 @@
+@import "../animations.css";
+
+StackLayout{
+}
+
+Label.frm-title{
+    font-size:20;
+    color:#fff;
+    padding-left:10;
+}
+
+TextField{
+    padding:10 10;
+    margin:10;
+    background-color:#fff;
+    border-radius:2;
+    text-align: center;
+    color:#444;
+    width:300;
+}
+
+.title{
+    font-size:45;
+    color:#00698C;
+    text-align: center;
+    padding:20 0 0 0;
+}
+
+.title-note{
+    font-size:13;
+    text-align: center;
+    padding:5px 0;
+}
+.btn{
+    margin-right:8;
+    margin-left:8;
+    background-color:#00698C;
+    width:300;
+}

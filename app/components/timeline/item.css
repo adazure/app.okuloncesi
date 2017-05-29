@@ -1,0 +1,23 @@
+
+.timeline-item{
+ padding:20;
+}
+
+.timeline-item label{
+    padding:4 0;
+    font-family: "Roboto Condensed";
+}
+
+.timeline-item .timeline-date{
+    padding-bottom:2;
+    font-weight:600;
+}
+
+.timeline-item .timeline-user{
+    padding-bottom:1;
+    font-weight:bold;
+}
+
+.timeline-item .timeline-content{
+
+}

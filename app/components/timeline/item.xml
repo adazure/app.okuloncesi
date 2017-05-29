@@ -1,0 +1,8 @@
+<StackLayout orientation="vertical" class="timeline-item" loaded="loaded">
+        <Image id="_image" loadMode="async" />
+        <StackLayout>
+            <Label id="_date" class="timeline-date" />
+            <Label id="_user" class="timeline-user"/>
+            <Label id="_text" textWrap="true" class="timeline-content" />
+        </StackLayout>
+</StackLayout>

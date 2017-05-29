@@ -1,0 +1,20 @@
+<Page actionBarHidden="true"> 
+<SegmentedBar>
+  <SegmentedBar.items>
+    <SegmentedBarItem title="Item 1" />
+    <SegmentedBarItem title="Item 2" />
+    <SegmentedBarItem title="Item 3" />
+  </SegmentedBar.items>
+</SegmentedBar>
+    <StackLayout orientation="vertical" class="container">
+        <image src="http://images.huffingtonpost.com/2016-10-27-1477586294-6421376-children.jpg" loadMode="async" />
+        <StackLayout orientation="vertical" class="animated flipDown">
+            <Label class="title" text="Login" />
+            <Label class="title-note" text="You can login with your membership information" />
+            <TextField hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none"/>
+            <TextField hint="Password" secure="true" />
+            <Button text="Login" class="btn btn-primary" tap="loginTap" />
+            <Label class="title-note" text="If you don't have an account, you can create now" />
+        </StackLayout>
+    </StackLayout>
+</Page>

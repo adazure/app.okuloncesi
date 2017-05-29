@@ -1,0 +1,20 @@
+.animated.delay1000{animation-delay: 1s;}
+.animated.delay2000{animation-delay: 2s;}
+.animated.delay3000{animation-delay: 3s;}
+.animated.delay4000{animation-delay: 4s;}
+
+
+.animated.flipDown{
+    opacity: 0;
+    animation-name: flipDown;
+    animation-duration: 1;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+}
+
+
+@keyframes flipDown{
+    0%{ transform:translate(0,-10); opacity:0}
+    30%{ transform:translate(0,10); opacity:.5}
+    100%{transform:translate(0,0); opacity: 1}
+}
